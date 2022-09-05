@@ -1,38 +1,197 @@
-.App {
-  text-align: center;
+* {
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat", sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html,
+body {
+    font-size: 15px;
+    line-height: 1.5;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body {
+    margin: 0;
 }
 
-.App-link {
-  color: #61dafb;
+.div-black {
+    background-color: black;
+    color: #fff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.menu-10 {
+    width: 120px;
+    height: 100%;
+    position: fixed;
+    background-color: #222;
+    text-align: center;
+}
+
+.a-menu-10 {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 0;
+}
+
+.div-black-hover:hover {
+    color: black;
+    background-color: rgb(155, 153, 153);
+}
+
+.div-hover:hover {
+    color: #fff;
+    background: rgb(5, 5, 5);
+}
+
+.menu-90 {
+    margin-left: 120px;
+    background-color: black;
+    color: #fff;
+}
+
+.menu-90-content {
+    padding: 10px 20px;
+}
+
+.header {
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.w3-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.div-padding {
+    padding: 10px 20px;
+}
+
+.div-color {
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.div-big {
+    width: 100%;
+    background-color: #fff;
+}
+
+.div-small {
+    width: 90%;
+    background-color: #666;
+    padding: 20px 0;
+}
+
+.menu-for {
+    background-color: #fff;
+    color: #757575;
+    margin-top: 40px;
+}
+
+.menu-for-small {
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.menu-for::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.button-menu-for {
+    background-color: #fff;
+    color: #222;
+    border: none;
+    padding: 15px 20px;
+    margin: 30px 0;
+}
+
+.button-menu-for:hover {
+    background-color: rgb(167, 163, 163);
+}
+
+.div-flex {
+    display: flex;
+
+    color: #222;
+    justify-content: space-between;
+}
+
+.menu-flex-opacity {
+    width: 49%;
+    text-align: center;
+    background-color: #fff;
+    opacity: 0.5;
+}
+
+.button-opacity {
+    border: none;
+    background-color: #666;
+    color: black;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.menu-flex-opacity:hover {
+    opacity: 1;
+}
+
+.button-opacity:hover {
+    background-color: rgb(8, 8, 8);
+    color: #fff;
+}
+
+.menu-float-image {
+    float: left;
+    color: rgb(68, 67, 67);
+    font-size: 20px;
+}
+
+.menu-float::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.menu-flex-image-small {
+    width: 49%;
+}
+.form-input{
+    margin-top: 20px;
+}
+.input-footer{
+    width:100%;
+    padding:20px 0;
+    border:none;
+    margin:10px 0;
+}
+.button-footer{
+    border:none;
+    padding: 20px;
+    margin:10px 0;
+}
+.button-footer:hover{
+    background-color: rgb(167, 163, 163);
+}
+.list-icon-footer{
+    font-size: 24px;
+    margin-top: 100px;
+}
+.w3-hover-opacity:hover{
+    opacity:0.6;
 }
